@@ -1,3 +1,6 @@
 steps:
   - name: golang
-    args: ["run", "main.go"]
+    entrypoint: /bin/bash
+    args:
+      - -c
+      - go build main.go
