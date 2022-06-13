@@ -1,4 +1,3 @@
 steps:
   - name: golang
-    entrypoint: /bin/bash
     args: ["go", "build", "main.go"]
